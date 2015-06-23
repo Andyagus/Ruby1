@@ -32,32 +32,29 @@
 
 #Exercise fizzbuzz
 
-def fizzbuzz()
+def fizzbuzz
 
   for x in 1..100
+
+    if ((x % 5 == 0) && (x % 3 == 0))
+    puts "fizz buzz"
+ 
+    elsif (x % 3) == 0
+    puts "fizz"
+
+    elsif (x % 5) == 0
+    puts "buzz"
+   
+    else   
+    puts x
+
+   end
     
-      if (x % 3) == 0
-        puts "fizz"
-      
-
-      else (x % 5) == 0
-        puts "buzz"
-      
-
-      else num1 && num2 == 0 
-        puts "fizzbuzz"
-      
-
-      elsif !((x % 3) && (x % 5) == 0)
-        puts x
-
-    end
-
   end
 
 end
 
-
+ 
 
 
 
